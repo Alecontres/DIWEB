@@ -1,0 +1,42 @@
+h1{
+    border:black 0.1em solid;
+    text-align: center;
+    font-size: 3em;
+}
+#borde_arriba{
+    border-top-style: double;
+    border-left-style: double;
+    border-color: red;
+    border-width: 1em;
+}
+#borde_lineas{
+    border-top:blue 0.3em dashed;
+    border-left:green 2em solid;
+    border-right: green 0.7em dashed;
+    border-bottom: blue 1em dashed;
+}
+#amarillo{
+    border-top: yellow 2.1em double;
+    border-bottom: yellow 2.1em double;
+    border-left: yellow 0.7em double;
+    border-right: yellow 0.7em double;
+}
+#arriba_abajo{
+    border-top: greenyellow 1em solid;
+    border-bottom: blue 1em solid;
+}
+#grande{
+    border-top: red 1.5em dashed;
+    border-left: black 1.5em dashed;
+    border-right: black 1.5em dashed;
+    border-bottom: black 1.5em dotted;
+}
+#puntos_lineas{
+    border-top: black 0.7em dotted;
+    border-left: red 2em double;
+    border-right: black 2em dashed;
+    border-bottom: black 1em dashed;
+}
+p{
+    font-size: 1.5em;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color:green;
+}
+h1{
+    font-size: 3.5em;
+}
+.blanco{
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.marron{
+    color:floralwhite;
+    font-size: 1.5em;
+}
+.naranja{
+    color:goldenrod;
+    font-size: 1.5em;
+}
+.rosa{
+    color: deeppink;
+    font-size: 1.5em;
+}

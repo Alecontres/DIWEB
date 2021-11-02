@@ -1,0 +1,30 @@
+body{
+    background-color: #C4C6B9;
+}
+h1{
+    text-align: right;
+    font-size: 3em;
+    letter-spacing: 35px;
+    color:#161669;
+}
+h2{
+    background-color: #5D6336;
+    color:white;
+    font-size: 2.5em;
+}
+p{
+    font-size: 25px;
+}
+#fiore{
+    float: left;
+}
+#santa_croce{
+    margin-top: 2em;
+}
+#croce{
+    margin-left: 35em;
+}
+#novella{
+    float:right;
+    padding-top: 3.5em;
+}

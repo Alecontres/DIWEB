@@ -1,0 +1,75 @@
+@font-face {
+    font-family:SigmarOne;
+    src: url(../fuentes/sigmar-one.woff);
+}
+
+body{
+    background-color: #E9F2FB;
+}
+
+em{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+strong{
+    color: red;
+    background-color: white;
+}
+
+time{
+    color:blue;
+}
+
+h1{
+    text-align: center;
+    font-family: SigmarOne;
+}
+
+h2{
+    color: #7A99B8;
+    font-family:SigmarOne;
+    font-size: 2.5em;
+}
+
+hr{
+    background-color: #7A99B8;
+    width: 60em;
+    height: 1em;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+img{
+    border: #7A99B8 0.3em solid;
+    padding: 0.3em;
+}
+
+#yorkshire{
+    float: left;
+}
+
+#yorkshire_text{
+    margin-bottom: 10em;
+}
+
+#dogo{
+    float: right;
+}
+
+#dogo_text{
+    margin-bottom: 3em;
+}
+
+#ratonero{
+    float: left;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-bottom: 2em;
+}
+#ratonero_text{
+    float: left;
+    width: 30em;
+    margin-left: 4em;
+}

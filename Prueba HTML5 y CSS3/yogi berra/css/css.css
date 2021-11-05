@@ -1,0 +1,24 @@
+@font-face {
+    font-family: slackey;
+    src: url(../fuentes/slackey.woff2);
+}
+body{
+    background:url("../img/violeta.png") repeat-y -80px;
+    margin-left: 70px;
+    margin-right: 48px;
+}
+h1{
+    font-family: slackey;
+    color:mediumpurple;
+    border-bottom: mediumpurple 3px solid;
+    text-align: center;
+    background-color:paleturquoise;
+}
+img{
+    float: left;
+    border: black 2px solid;
+    padding: 3px;
+}
+.azul{
+    background-color: white;
+}

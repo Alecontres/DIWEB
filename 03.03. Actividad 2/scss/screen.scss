@@ -1,0 +1,14 @@
+$color_texto:#eee;
+$color_texthover:#fff;
+$color_fondo:#666;
+$color_fondhover:#888;
+
+@mixin color {
+    background-color: $color_fondo;
+    color: $color_texto;
+}
+
+@mixin colorhover{
+    color:$color_texthover;
+    background-color: $color_fondhover;
+}

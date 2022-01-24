@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/css.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+<div class="container">
+
+  <h2>Formulario de Registro</h2>
+  <form class="form-group row">
+    <div class="form-group row">
+      <label for="usuario">Usuario:</label>
+      <input type="text" placeholder="Username">
+
+      <label for="email">Email:</label>
+      <input type="email" placeholder="email">
+
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" placeholder="Username">
+
+      <!--<label for="sexo">Sexo:</label>
+      <input type="radio" name="sexo" value="1">Hombre
+      <input type="radio" name="sexo" value="2">Mujer
+
+      <label for="foto">Seleccionar foto de perfil:</label>
+      <input type="file" value="Seleccionar archivo">
+      -->
+
+    </div>
+
+    <a href="#" data-toggle="popover" title="Hola" data-content="Some content inside the popover">Popover funciona</a>
+
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Alerta de campos" data-content="Por favor rellene todos los campos correctamente">Registrar</button>
+
+
+  </form>
+  <div class="container">
+    <a href="#" data-toggle="tooltip" title="Funciona!">Pon el raton encima</a>
+  </div>
+
+  <script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+  });
+  </script>
+
+</div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+
+    var popoverTriggerList=[].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
+    var popoverList=popoverTriggerList.map(function(popoverTigger){
+      return new bootstrap.Popover(popoverTigger);
+    });
+    </script>
+  </body>
+</html>
